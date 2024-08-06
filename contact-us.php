@@ -67,12 +67,17 @@ if (!empty($_POST)) {
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="keywords" content="" />
-    <meta name="description" content="" />
-    <meta name="keywords" content="">
-    <meta name="author" content="" />
+    <meta http-equiv="refresh" content="300">
+    <meta name="revisit-after" content="7 days">
+    <meta name="copyright" content="2024 Tufftron">
+    <meta name="publisher" content="Tufftron">
+    <meta name="rating" content="general">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Discover the fascinating process of glass manufacturing with Tufftron. Learn about the raw materials, production steps, and quality control measures" />
+    <meta name="keywords" content="Glass manufacturing process, glass production,glassmaking, glass factory, glass production steps, glass manufacturing techniques,glass finishing">
+    <meta name="author" content="Tufftron" />
     <meta name="viewport" content=" width=device-width, initial-scale=1, maximum-scale=2" />
-    <title>Contact - TUFFTRON</title>
+    <title>Glass Manufacturing Process | How Glass is Made - Tufftron</title>
 
     <link rel="shortcut icon" href="img/favicon.png" />
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
@@ -89,19 +94,14 @@ if (!empty($_POST)) {
     <link rel="stylesheet" type="text/css" href="css/responsive.css" />
     <link rel='stylesheet' id='rs-plugin-settings-css' href="revolution/css/rs6.css">
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VXQHDQ7T97"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q4JFFVRKY3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'G-VXQHDQ7T97');
-    </script>
-
+  gtag('config', 'G-Q4JFFVRKY3');
+</script>
 </head>
 
 <body>
