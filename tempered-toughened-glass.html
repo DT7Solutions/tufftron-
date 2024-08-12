@@ -475,7 +475,7 @@
     <script src='revolution/js/revolution.tools.min.js'></script>
     <script src='revolution/js/rs6.min.js'></script>
     <!-- Javascript end-->
-
+    <script> (function() {   var url = window.location.href;   if (url.indexOf('?m=1') !== -1) {     url = url.replace('?m=1', '');     window.history.pushState(null, null, url);   } })(); </script>
 </body>
 
 </html>
