@@ -163,6 +163,9 @@ if (!empty($_POST)) {
                                                         <li><a href="#">Certifications</a></li>
                                                     </ul>
                                                 </li>
+                                                <li class="mega-menu-item">
+                                                    <a href="blogs.html">Blogs</a>
+                                                </li>
                                                 <li class="mega-menu-item active">
                                                     <a href="contact-us.php">Contact Us</a>
                                                 </li>
