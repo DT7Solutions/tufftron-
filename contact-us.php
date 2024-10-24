@@ -73,9 +73,9 @@ if (!empty($_POST)) {
     <meta name="publisher" content="Tufftron">
     <meta name="rating" content="general">
     <meta name="robots" content="index, follow">
-    <title>Glass Manufacturer Near by Me: Find Local Quality Glass Suppliers</title>
-    <meta name="description" content="Explore reliable glass suppliers near you for all your building and design needs. Get high-quality glass today!">
-    <meta name="keywords" content="Glass Manufacturer Near by Me">
+    <title>Top Quality Glass Suppliers for Your Building Needs</title>
+    <meta name="description" content="Discover the best quality glass suppliers offering durable, stylish glass products perfect for any construction project. Contact us today!">
+    <meta name="keywords" content="Quality Glass Suppliers">
     <meta name="author" content="Tufftron" />
     <meta name="viewport" content=" width=device-width, initial-scale=1, maximum-scale=2" />
     

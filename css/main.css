@@ -3263,3 +3263,6 @@ n .more-posts .next-post .post-control-link {
 .more-posts{
     background-color: #f7f7f7;
 }
+.blog-head  h5{
+    font-size: 15px;
+}
