@@ -18,7 +18,9 @@
  
 
 
+ jQuery(function($) {
 
+    "use strict";
 
 
 
