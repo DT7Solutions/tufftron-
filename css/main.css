@@ -3162,3 +3162,104 @@ section.error-404 .page-content p {
     font-weight: bold;
     text-decoration: underline;
 }
+
+ .tag-widget ul li {
+    float: left;
+    margin: 0 8px 8px 0!important;
+}
+ .tag-widget ul li a:hover {
+   
+    color: #fff;
+}
+ .tag-widget ul li a {
+    background: #fff;
+    border-radius: 5px;
+    color: #0a272c;
+    display: inline-block;
+    font-size: 15px;
+    font-size: 0.8rem!important;
+    padding: 5px 5px!important;
+}
+.more-posts {
+    overflow: hidden;
+    border: 1px solid #e4ebf2;
+    padding: 0 25px;
+}
+ .more-posts .previous-post {
+    padding-right: 15px!important;
+    padding-left: 5px!important;
+}
+ .more-posts .previous-post, .more-posts .next-post {
+    padding: 40px 0;
+    color: #232323!important;
+}
+ .more-posts > div {
+    width: 50%;
+    float: left;
+}
+ .more-posts .previous-post .post-control-link {
+    padding-left: 25px;
+    position: relative;
+}
+ .more-posts .previous-post > a > span,  .more-posts .next-post > a > span {
+    display: block;
+    color: #232323!important;
+}
+ .more-posts .post-control-link {
+    font-size: 14px;
+    font-size: 0.7777777778rem;
+    color: #232323!important;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+ .more-posts .previous-post .post-control-link:before {
+    font-family: "themify";
+    content: "\e629";
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+ .more-posts > div > a {
+    display: inline-block;
+}
+ .more-posts .next-post .post-control-link {
+    padding-right: 25px;
+    position: relative;
+}
+.more-posts .previous-post > a > span,  .more-posts .next-post > a > span {
+    display: block;
+}
+ .more-posts .post-control-link {
+    font-size: 14px;
+    font-size: 0.7777777778rem;
+    color: #585858;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+ .more-posts .post-control-link {
+    font-size: 14px;
+    font-size: 0.7777777778rem;
+    color: #585858;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+ .more-posts .next-post .post-control-link:before {
+    font-family: "themify";
+    content: "\e628";
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+n .more-posts .next-post .post-control-link {
+    padding-right: 25px;
+    position: relative;
+}
+ .more-posts .previous-post > a > span,  .more-posts .next-post > a > span {
+    display: block;
+}
+.more-posts{
+    background-color: #f7f7f7;
+}
