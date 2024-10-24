@@ -73,12 +73,12 @@ if (!empty($_POST)) {
     <meta name="publisher" content="Tufftron">
     <meta name="rating" content="general">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Discover the fascinating process of glass manufacturing with Tufftron. Learn about the raw materials, production steps, and quality control measures" />
-    <meta name="keywords" content="Glass manufacturing process, glass production,glassmaking, glass factory, glass production steps, glass manufacturing techniques,glass finishing">
+    <title>Glass Manufacturer Near by Me: Find Local Quality Glass Suppliers</title>
+    <meta name="description" content="Explore reliable glass suppliers near you for all your building and design needs. Get high-quality glass today!">
+    <meta name="keywords" content="Glass Manufacturer Near by Me">
     <meta name="author" content="Tufftron" />
     <meta name="viewport" content=" width=device-width, initial-scale=1, maximum-scale=2" />
-    <title>Glass Manufacturing Process | How Glass is Made - Tufftron</title>
-
+    
     <link rel="shortcut icon" href="img/favicon.png" />
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="css/animate.css" />
