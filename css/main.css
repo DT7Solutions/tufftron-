@@ -3266,3 +3266,25 @@ n .more-posts .next-post .post-control-link {
 .blog-head  h5{
     font-size: 15px;
 }
+.blog-list__meta li p {
+   
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+.blog-list__meta {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 0px 0px 0px !important;
+    border-radius: 20px;
+    z-index: 2;
+}
+.fa-user{
+    color:#5cb2ba;
+}
+.fa-calendar{
+    color:#5cb2ba;
+
+}
