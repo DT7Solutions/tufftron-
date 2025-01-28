@@ -3288,3 +3288,25 @@ n .more-posts .next-post .post-control-link {
     color:#5cb2ba;
 
 }
+.blog-details__content-thumb-date {
+    position: absolute;
+    background-color: #1f7b94;
+    color:#fff;
+    padding: 12px 20px;
+    display: inline-flex;
+    align-items: center;
+    bottom: 0;
+    right: 8%;
+    transition: all 0.3s ease-in-out;
+}
+.blog-details__content-thumb {
+    position: relative;
+}
+.blog-details__content-thumb-date {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.blog-details__content-thumb-date .fa-calendar{
+    color:#fff;
+}
