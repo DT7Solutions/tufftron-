@@ -2969,6 +2969,7 @@ div:hover>.ttm-box-view-content-inner:before, div:hover>.ttm-box-view-overlay:be
     padding-bottom: 0;
     border: 0;
     position: relative;
+    background: #f7f7f7;
     margin-bottom: 30px
 }
 
@@ -2979,7 +2980,7 @@ div:hover>.ttm-box-view-content-inner:before, div:hover>.ttm-box-view-overlay:be
 .accordion .toggle.ttm-toggle_style_classic .toggle-content {
     padding: 18px 20px;
     margin-top: 0;
-    margin-bottom: -30px
+    /* margin-bottom: -30px */
 }
 
 .accordion .toggle.ttm-toggle_style_classic .toggle-title a {
