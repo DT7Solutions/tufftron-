@@ -50,18 +50,7 @@
 
    
    
-    <!-- <link rel="stylesheet" type="text/css" href="css/animate.css" />
-    <link rel="stylesheet" type="text/css" href="css/flaticon.css" />
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
-    <link rel="stylesheet" type="text/css" href="css/themify-icons.css" />
-    <link rel="stylesheet" type="text/css" href="css/slick.css">
-    <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css"> -->
-    
-    
-    <!-- <link rel="stylesheet" type="text/css" href="css/main.css" />
-    <link rel="stylesheet" type="text/css" href="css/megamenu.css" />
-    <link rel="stylesheet" type="text/css" href="css/responsive.css" /> -->
-    <!-- <link rel='stylesheet' id='rs-plugin-settings-css' href="revolution/css/rs6.css"> -->
+ 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q4JFFVRKY3"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -165,8 +154,8 @@
                         <rs-slide data-key="rs-1" data-title="Slide" data-thumb="img/sliders/slider-one.jpg"
                             data-anim="ei:d;eo:d;s:d;r:0;t:grayscalecross;sl:d;">
 
-                            <img src="img/sliders/slider-one.jpg" title="slider-bg001" width="1920" height="843"
-                                class="rev-slidebg" data-no-retina>
+                            <img src="img/sliders/slider-one.jpg" rel="preload" as="image" title="slider-bg001" width="1920" height="843"
+                                class="rev-slidebg" fetchpriority="high" data-no-retina>
 
 
 
@@ -559,7 +548,7 @@
                                             <div class="featured-imagebox featured-imagebox-portfolio style1">
                                                 <!-- featured-thumbnail -->
                                                 <div class="featured-thumbnail">
-                                                    <a href="#"><img width="324" height="380" class="img-fluid"
+                                                    <a href="#"><img width="324" height="380" class="img-fluid" loading="lazy"
                                                             src="img/home/glass-doors.webp" alt="glass door"></a>
                                                 </div><!-- featured-thumbnail end-->
                                                 <div class="featured-content">
@@ -605,7 +594,7 @@
                                             <div class="featured-imagebox featured-imagebox-portfolio style1">
                                                 <!-- featured-thumbnail -->
                                                 <div class="featured-thumbnail">
-                                                    <a href="#"><img width="324" height="380" class="img-fluid"
+                                                    <a href="#"><img width="324" height="380" class="img-fluid" loading="lazy"
                                                             src="img/home/glass-skylight.webp"
                                                             alt="Glass Sky Lights & Canopoy"></a>
                                                 </div><!-- featured-thumbnail end-->
@@ -629,7 +618,7 @@
                                             <div class="featured-imagebox featured-imagebox-portfolio style1">
                                                 <!-- featured-thumbnail -->
                                                 <div class="featured-thumbnail">
-                                                    <a href="#"> <img width="324" height="380" class="img-fluid"
+                                                    <a href="#"> <img width="324" height="380" class="img-fluid" loading="lazy"
                                                             src="img/home/glass-partition.JPG"
                                                             alt="Glass Partitions"></a>
                                                 </div><!-- featured-thumbnail end-->
@@ -653,7 +642,7 @@
                                             <div class="featured-imagebox featured-imagebox-portfolio style1">
                                                 <!-- featured-thumbnail -->
                                                 <div class="featured-thumbnail">
-                                                    <a href="#"> <img width="324" height="380" class="img-fluid"
+                                                    <a href="#"> <img width="324" height="380" class="img-fluid" loading="lazy"
                                                             src="img/home/glass-cabins.webp" alt="Glass Cabins"></a>
                                                 </div><!-- featured-thumbnail end-->
                                                 <div class="featured-content">
@@ -676,7 +665,7 @@
                                             <div class="featured-imagebox featured-imagebox-portfolio style1">
                                                 <!-- featured-thumbnail -->
                                                 <div class="featured-thumbnail">
-                                                    <a href="#"> <img width="324" height="380" class="img-fluid"
+                                                    <a href="#"> <img width="324" height="380" class="img-fluid" loading="lazy"
                                                             src="img/home/glass-railings.webp" alt="Glass Railings"></a>
                                                 </div><!-- featured-thumbnail end-->
                                                 <div class="featured-content">
@@ -700,7 +689,7 @@
                                                 <!-- featured-thumbnail -->
                                                 <div class="featured-thumbnail">
                                                     <a href="#"> <img width="324" height="380" class="img-fluid"
-                                                            src="img/home/shower-cubicals.webp"
+                                                            src="img/home/shower-cubicals.webp"loading="lazy"
                                                             alt="shower cubicals"></a>
                                                 </div><!-- featured-thumbnail end-->
                                                 <div class="featured-content">
@@ -731,7 +720,7 @@
                                 </div>
                             </div>
                             <!-- col-img-bg-img-one end-->
-                            <img src="img/infrastructure/warehouse-536x357.png" class="ttm-equal-height-image img-fluid"
+                            <img src="img/infrastructure/warehouse-536x357.png" class="ttm-equal-height-image img-fluid" loading="lazy"
                                 alt="about glass">
                         </div>
                     </div><!-- row end -->
@@ -890,6 +879,7 @@
 <script src="revolution/js/slider.js" defer></script>
 <script src="revolution/js/revolution.tools.min.js" defer></script>
 <script src="revolution/js/rs6.min.js" defer></script>
+<script src="js/jquery.twentytwenty.js" defer></script>
 
         <!-- Javascript end-->
 
