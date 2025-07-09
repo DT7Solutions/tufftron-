@@ -78,7 +78,9 @@ if (!empty($_POST)) {
     <meta name="keywords" content="Quality Glass Suppliers">
     <meta name="author" content="Tufftron" />
     <meta name="viewport" content=" width=device-width, initial-scale=1, maximum-scale=2" />
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+
     <link rel="shortcut icon" href="img/favicon.png" />
    <link rel="preload"  href="css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript> <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" /></noscript>
@@ -521,6 +523,7 @@ if (!empty($_POST)) {
 <script src="js/jquery.event.move.js" defer></script>
 <script src="js/jquery.twentytwenty.js" defer></script>
 <script src="js/circle-progress.min.js" defer></script>
+<script src="email-decode.min.js" async></script>
 
 </body>
 
