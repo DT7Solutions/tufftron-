@@ -27,6 +27,10 @@
   # Video and media
   ExpiresByType video/mp4 "access plus 1 year"
   ExpiresByType audio/mpeg "access plus 1 year"
+  ExpiresByType application/json "access plus 1 year"
+  ExpiresByType application/xml "access plus 1 year"
+  ExpiresByType text/xml "access plus 1 year"
+  ExpiresByType application/octet-stream "access plus 1 year"
 
 </IfModule>
 
