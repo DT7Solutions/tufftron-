@@ -222,3 +222,20 @@ ul, li {
     display: inline-block;
     transform: rotate(90deg);
 }
+#logo-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+/* For site-main */
+.site-main {
+  background-color: #ffffff; /* or darker if text is light */
+  color: #111111; /* Ensure at least 4.5:1 contrast */
+}
+
+/* For anchor text like "Our Aim" */
+a {
+  color: #0056b3; /* Darker blue for better contrast */
+}
+
+
