@@ -237,5 +237,12 @@ ul, li {
 a {
   color: #0056b3; /* Darker blue for better contrast */
 }
+.featured-img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1800 / 1171; /* natural aspect ratio */
+  display: block;
+  object-fit: cover; /* optional, for crop effect if needed */
+}
 
 

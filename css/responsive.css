@@ -1209,7 +1209,7 @@
     .ttm-tabs.ttm-tab-style-01 ul.tabs li {
         border: 1px solid #e7e7e7;
         margin-bottom: 10px;
-        padding-left: 15px
+        /* padding-left: 15px */
     }
 
     .ttm-tabs.ttm-tab-style-01 ul.tabs li.active:after, .ttm-tabs.ttm-tab-style-01 ul.tabs li.active:before {
@@ -1225,6 +1225,7 @@
     .second-footer .widget-area:nth-child(2) {
         margin-top: 0
     }
+    .ttm-tabs.ttm-tab-style-01 ul.tabs li a{padding:20px 15px!important;}
 
     .res-575-mb-0 {
         margin-bottom: 0 !important
