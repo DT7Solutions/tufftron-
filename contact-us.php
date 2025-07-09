@@ -523,7 +523,7 @@ if (!empty($_POST)) {
 <script src="js/jquery.event.move.js" defer></script>
 <script src="js/jquery.twentytwenty.js" defer></script>
 <script src="js/circle-progress.min.js" defer></script>
-<script src="email-decode.min.js" async></script>
+
 
 </body>
 
