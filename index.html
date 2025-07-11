@@ -25,8 +25,7 @@
     <link rel="canonical" href="https://tufftron.com">
 
     <link rel="shortcut icon" href="img/favicon.png" />
-    <link rel="preload"  href="css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript> <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" /></noscript>
+   <link rel="stylesheet" href="css/bootstrap.min.css" media="print" onload="this.media='all'">
  <link rel="preload"  href="css/animate.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript>  <link rel="stylesheet" type="text/css" href="css/animate.css" /></noscript>
  <link rel="preload"  href="css/flaticon.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -45,10 +44,8 @@
 <noscript>  <link rel="stylesheet" type="text/css" href="css/megamenu.css" /></noscript>
 <link rel="preload"  href="css/responsive.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript>  <link rel="stylesheet" type="text/css" href="css/responsive.css" /></noscript>
-<link rel="preload"  href="revolution/css/rs6.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript>  <link rel="stylesheet" type="text/css" href="revolution/css/rs6.css" /></noscript>
-<link rel="preload" href="css/shortcodes.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" type="text/css" href="css/shortcodes.css" /></noscript>
+<link rel="stylesheet" href="revolution/css/rs6.css" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="/css/shortcodes.css" media="print" onload="this.media='all'">
 
    
    
@@ -82,7 +79,7 @@
                                     <!-- site-branding -->
                                     <div class="site-branding ">
                                         <a class="home-link" href="index.html" title="TUFFTRON" rel="home">
-                                            <img id="logo-img"  class="img-fluid"  width="167" height="53"
+                                            <img id="logo-img" rel="preload"  class="img-fluid"  width="167" height="53"
                                                 src="img/logo.png" alt="TUFFTRON logo-img">
                                         </a>
                                     </div><!-- site-branding end -->
@@ -157,7 +154,7 @@
                             data-anim="ei:d;eo:d;s:d;r:0;t:grayscalecross;sl:d;">
 
                             <img src="img/sliders/slider-one.jpg" rel="preload" as="image" title="slider-bg001" width="1920" height="843"
-                                class="rev-slidebg" fetchpriority="high" data-no-retina>
+                                class="rev-slidebg"  data-no-retina>
 
 
 
@@ -192,7 +189,7 @@
                         <rs-slide data-key="rs-4" data-title="Slide" data-thumb="img/sliders/slider-two.jpg"
                             data-anim="ei:d;eo:d;s:d;r:0;t:grayscalecross;sl:d;">
 
-                            <img src="img/sliders/slider-two.jpg" title="slider-bg002" width="1920" height="843"
+                            <img src="img/sliders/slider-two.jpg" rel="preload" title="slider-bg002" width="1920" height="843"
                                 class="rev-slidebg" data-no-retina>
 
 
@@ -226,7 +223,7 @@
                         <rs-slide data-key="rs-3" data-title="Slide" data-thumb="img/sliders/slider-three.jpg"
                             data-anim="ei:d;eo:d;s:1000;r:0;t:fade;sl:0;">
 
-                            <img src="img/sliders/slider-three.jpg" title="slider-bg001" width="1920" height="843"
+                            <img src="img/sliders/slider-three.jpg" rel="preload" title="slider-bg001" width="1920" height="843"
                                 class="rev-slidebg" data-no-retina>
 
                             <!-- <a id="slider-1-slide-3-layer-1" class="rs-layer" href="#" target="_self" data-type="text"
@@ -261,14 +258,7 @@
                                 unsurpassed products and services to establish a long-term business relationships.
                             </rs-layer>
 
-                            <!-- <rs-layer id="slider-1-slide-3-layer-10"
-                                class="rs-fsv rs-nolc rs-layer-video intrinsic-ignore" data-type="video"
-                                data-rsp_ch="on" data-xy="x:0;y:0;" data-text="w:normal;s:20,20,12,7;l:0,0,15,9;"
-                                data-dim="w:100%;h:100%;" data-basealign="slide"
-                                data-video="vd:100;fc:true;l:false;ptimer:false;afs:f;inl:f;"
-                                data-mp4="https://www.youtube.com/watch?v=OoDMxsXYfYU" data-frame_999="o:0;st:w;"
-                                style="z-index:7;">
-                            </rs-layer> -->
+                          
 
                         </rs-slide>
 
@@ -301,7 +291,7 @@
                                 <img width="520" height="590"  srcset="
     img/About-tufftron.webp 1x,
     img/About-tufftron@2x.webp 2x
-  "  class="img-fluid"  src="img/About-tufftron.webp" alt="welcome image" fetchpriority=high >
+  "  class="img-fluid"  src="img/About-tufftron.webp" alt="welcome image"  loading="lazy" >
                             </div>
                         </div>
                         <div class="col-xl-7 col-lg-7 col-md-12">
@@ -402,7 +392,7 @@
                                 <!-- featured-thumbnail -->
                                 <div class="featured-thumbnail">
                                     <a href="tempered-toughened-glass.html"><img  
-                                            class="img-fluid" src="img/home/tempered glass.webp"
+                                            class="img-fluid" loading="lazy" rel="preload" loading="lazy" src="img/home/tempered glass.webp"
                                             alt="Toughened /Tempered Glass"></a>
                                 </div><!-- featured-thumbnail end-->
                                 <div class="featured-content">
@@ -427,7 +417,7 @@
                             <div class="featured-imagebox featured-imagebox-portfolio style2">
                                 <!-- featured-thumbnail -->
                                 <div class="featured-thumbnail">
-                                    <a href="heat-strength-glass.html"><img  class="img-fluid" 
+                                    <a href="heat-strength-glass.html"><img  class="img-fluid"  rel="preload" loading="lazy"
                                             src="img/home/heat-strengthen-glass.webp" alt="Heat Strength Glass"></a>
                                 </div><!-- featured-thumbnail end-->
                                 <div class="featured-content">
@@ -452,7 +442,7 @@
                             <div class="featured-imagebox featured-imagebox-portfolio style2">
                                 <!-- featured-thumbnail -->
                                 <div class="featured-thumbnail">
-                                    <a href="insulated-glass.html"><img  class="img-fluid" 
+                                    <a href="insulated-glass.html"><img  class="img-fluid"  rel="preload" loading="lazy"
                                             src="img/home/insulated-glass.WEBP" alt="Insulated Glass"></a>
                                 </div><!-- featured-thumbnail end-->
                                 <div class="featured-content">
@@ -476,8 +466,8 @@
                             <!--featured-icon-box-->
                             <div class="featured-imagebox featured-imagebox-portfolio style2 active">
                                 <!-- featured-thumbnail -->
-                                <div class="featured-thumbnail">
-                                    <a href="frosted-glass.html"><img  class="img-fluid" 
+                                <div class="featured-thumbnail"> 
+                                    <a href="frosted-glass.html"><img  class="img-fluid" rel="preload" loading="lazy"
                                             src="img/home/frosted-glass.webp" alt="Frosted Glass"></a>
                                 </div><!-- featured-thumbnail end-->
                                 <div class="featured-content">
@@ -502,7 +492,7 @@
                             <div class="featured-imagebox featured-imagebox-portfolio style2">
                                 <!-- featured-thumbnail -->
                                 <div class="featured-thumbnail">
-                                    <a href="laminated-glass.html"><img  class="img-fluid" 
+                                    <a href="laminated-glass.html"><img  class="img-fluid"  rel="preload" loading="lazy"
                                             src="img/home/laminated-glass.webp" alt="Laminated Glass"></a>
                                 </div><!-- featured-thumbnail end-->
                                 <div class="featured-content">
@@ -554,7 +544,7 @@
                                             <div class="featured-imagebox featured-imagebox-portfolio style1">
                                                 <!-- featured-thumbnail -->
                                                 <div class="featured-thumbnail">
-                                                    <a href="#"><img  class="featured-img" 
+                                                    <a href="#"><img  class="featured-img" rel="preload" loading="lazy"
                                                             src="img/home/glass-doors.webp" alt="glass door"></a>
                                                 </div><!-- featured-thumbnail end-->
                                                 <div class="featured-content">
@@ -577,7 +567,7 @@
                                             <div class="featured-imagebox featured-imagebox-portfolio style1 active">
                                                 <!-- featured-thumbnail -->
                                                 <div class="featured-thumbnail">
-                                                    <a href="#"> <img  class="featured-img" 
+                                                    <a href="#"> <img  class="featured-img" rel="preload" loading="lazy"
                                                             src="img/home/facade-glass.webp" alt="facade glazing"></a>
                                                 </div><!-- featured-thumbnail end-->
                                                 <div class="featured-content">
@@ -600,7 +590,7 @@
                                             <div class="featured-imagebox featured-imagebox-portfolio style1">
                                                 <!-- featured-thumbnail -->
                                                 <div class="featured-thumbnail">
-                                                    <a href="#"><img  class="featured-img" 
+                                                    <a href="#"><img  class="featured-img" rel="preload" loading="lazy"
                                                             src="img/home/glass-skylight.webp"
                                                             alt="Glass Sky Lights & Canopoy"></a>
                                                 </div><!-- featured-thumbnail end-->
@@ -624,7 +614,7 @@
                                             <div class="featured-imagebox featured-imagebox-portfolio style1">
                                                 <!-- featured-thumbnail -->
                                                 <div class="featured-thumbnail">
-                                                    <a href="#"> <img  class="featured-img" 
+                                                    <a href="#"> <img  class="featured-img" rel="preload" loading="lazy"
                                                             src="img/home/glass-partition.JPG"
                                                             alt="Glass Partitions"></a>
                                                 </div><!-- featured-thumbnail end-->
@@ -648,7 +638,7 @@
                                             <div class="featured-imagebox featured-imagebox-portfolio style1">
                                                 <!-- featured-thumbnail -->
                                                 <div class="featured-thumbnail">
-                                                    <a href="#"> <img  class="featured-img" 
+                                                    <a href="#"> <img  class="featured-img" rel="preload" loading="lazy"
                                                             src="img/home/glass-cabins.webp" alt="Glass Cabins"></a>
                                                 </div><!-- featured-thumbnail end-->
                                                 <div class="featured-content">
@@ -671,7 +661,7 @@
                                             <div class="featured-imagebox featured-imagebox-portfolio style1">
                                                 <!-- featured-thumbnail -->
                                                 <div class="featured-thumbnail">
-                                                    <a href="#"> <img  class="featured-img" 
+                                                    <a href="#"> <img  class="featured-img" rel="preload" loading="lazy"
                                                             src="img/home/glass-railings.webp" alt="Glass Railings"></a>
                                                 </div><!-- featured-thumbnail end-->
                                                 <div class="featured-content">
@@ -694,7 +684,7 @@
                                             <div class="featured-imagebox featured-imagebox-portfolio style1">
                                                 <!-- featured-thumbnail -->
                                                 <div class="featured-thumbnail">
-                                                    <a href="#"> <img  class="featured-img"
+                                                    <a href="#"> <img  class="featured-img" rel="preload" loading="lazy"
                                                             src="img/home/shower-cubicals.webp"
                                                             alt="shower cubicals"></a>
                                                 </div><!-- featured-thumbnail end-->
@@ -769,8 +759,8 @@
                             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 widget-area">
                                 <div class="widget widget_text clearfix">
                                     <div class="footer-logo">
-                                        <img width="205" height="65" id="footer-logo-img" class="img-fluid"
-                                            src="img/logo.png" alt="tufftron">
+                                        <img width="205" height="65" id="footer-logo-img" rel="preload" class="img-fluid"
+                                            src="img/logo.png" loading="lazy" alt="tufftron">
                                     </div>
                                     <div class="textwidget widget-text">
                                         <p>A firm which caters to all your safety glass<br /> needs with finest quality
@@ -889,6 +879,14 @@
 <script src="js/jquery.twentytwenty.js" defer></script>
 
 
+<script>
+  setTimeout(function () {
+    var gtm = document.createElement('script');
+    gtm.src = "https://www.googletagmanager.com/gtag/js?id=G-Q4JFFVRKY3";
+    gtm.async = true;
+    document.head.appendChild(gtm);
+  }, 3000);
+</script>
 
 
         <!-- Javascript end-->

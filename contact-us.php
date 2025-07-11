@@ -102,10 +102,8 @@ if (!empty($_POST)) {
 <noscript>  <link rel="stylesheet" type="text/css" href="css/megamenu.css" /></noscript>
 <link rel="preload"  href="css/responsive.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript>  <link rel="stylesheet" type="text/css" href="css/responsive.css" /></noscript>
-<link rel="preload"  href="revolution/css/rs6.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript>  <link rel="stylesheet" type="text/css" href="revolution/css/rs6.css" /></noscript>
-<link rel="preload" href="css/shortcodes.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" type="text/css" href="css/shortcodes.css" /></noscript>
+<link rel="stylesheet" href="revolution/css/rs6.css" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="css/shortcodes.css" media="print" onload="this.media='all'">
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q4JFFVRKY3"></script>
 <script>
